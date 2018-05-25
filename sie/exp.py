@@ -8,7 +8,7 @@ from subprocess import call
 from sklearn.model_selection import cross_val_predict
 from sklearn_crfsuite.metrics import flat_classification_report
 
-from eval import calculateMeasures
+from sie.eval import calculateMeasures
 from sie import LOCAL_DIR, DATA_DIR
 from sie.brat import iob_to_brat
 from sie.crf import collect_features, read_labels, read_folds, pred_to_iob

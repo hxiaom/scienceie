@@ -171,11 +171,10 @@ def write_doc(spacy_fname, doc):
 
 def read_doc(spacy_fname, nlp):
     print('reading ' + spacy_fname)
-    byte_string = next(Doc.read_bytes(open(spacy_fname, 'rb')))
+    byte_string = open(spacy_fname, 'rb').read()
     doc = Doc(nlp.vocab)
     doc.from_bytes(byte_string)
     return doc
-
 
 # ******************************************************************************
 # Code below is not functional yet, because of a bug in Spacy that prevents
