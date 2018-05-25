@@ -7,6 +7,10 @@ from os.path import join
 
 from sklearn_crfsuite import CRF
 
+from os.path import join, abspath, dirname
+import sys
+sys.path.append(abspath(join(dirname(__file__), '../..')))
+
 from sie import ENTITIES, LOCAL_DIR
 from sie.feats import generate_feats, features1
 from sie.exp import run_exp_test, eval_exp_train
