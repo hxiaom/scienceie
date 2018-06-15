@@ -24,21 +24,9 @@ Setup
 
 4. Clone git repos
 
-	$ git clone https://github.com/OC-ScienceIE/scienceie17.git
+	$ git clone https://github.com/hxiaom/scienceie.git
 
-5. Extend Python search path
-
-	$ export PYTHONPATH=<.../scienceie17>/bin:<.../scienceie17>/lib/python:$PYTHON
-
-   where <.../scienceie17> is the full path to the local repository.
-
-6. Install additional dependencies
-
- 	$ pip install sklearn-crfsuite
-	$ pip install -U spacy
-	$ python -m spacy.en.download all
-
-7. Preprocess data (run Spacy NLP, derive IOB tags)
+5. Preprocess data (run Spacy NLP, derive IOB tags)
 
  	$ bin/preproc.py
 
