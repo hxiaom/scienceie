@@ -16,7 +16,7 @@ Setup
 
 2. Create virtual Python environment
 
-	$ conda create -n scienceie17 python=3 scikit-learn
+	$ conda create -n scienceie17 -f environment.yml
 
 3. Activate environment
 
