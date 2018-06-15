@@ -1,0 +1,1 @@
+Virtual machine storage. Storing data that includes receiving an indication to perform an operation with respect to data associated with a virtual machine storage abstraction; and using a meta information identifying which data stored on a storage system is associated with the virtual machine storage abstraction to perform the requested operation.

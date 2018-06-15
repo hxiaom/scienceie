@@ -13,11 +13,11 @@ Writes file output to dir _local.
 from os.path import join
 from os import makedirs
 
-import spacy
-
 from sie import DATA_DIR, LOCAL_DIR
 from sie.spacynlp import run_nlp, generate_iob_tags
 from sie.crf import generate_labels, generate_folds
+
+import spacy
 
 nlp = spacy.load('en')
 

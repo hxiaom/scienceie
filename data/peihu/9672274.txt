@@ -1,0 +1,1 @@
+Scalable message aggregation. Methods and systems for scalable message aggregation are described. A method may include receiving data to store in a message queue implemented on a partitioned distributed data store. The method may also include storing the data in one or more partitions of the message queue. The method may further include aggregating the stored data into a batch.

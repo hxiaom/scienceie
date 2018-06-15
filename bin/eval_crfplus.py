@@ -3,6 +3,9 @@
 """
 evaluate CRF++ output on ScienceIE keyword prediction task
 """
+from os.path import join, abspath, dirname
+import sys
+sys.path.append(abspath(join(dirname(__file__), '../')))
 
 import json
 from glob import glob
