@@ -1,1 +1,0 @@
-Measuring content brightness in head worn computing. Aspects of the present invention relate to methods and systems for measuring and managing the brightness of digital content in a field of view of a head-worn computer.

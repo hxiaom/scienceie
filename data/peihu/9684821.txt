@@ -1,1 +1,0 @@
-Method and apparatus for user recognition. A method for user recognition, comprising receiving user information from an information unit of a user; detecting the user face in a captured user image; and recognizing the user identity in the captured image according to a predetermined gesture associated with the user information and performed by the user.

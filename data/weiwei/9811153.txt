@@ -1,1 +1,0 @@
-Eye imaging in head worn computing. Aspects of the present invention relate to methods and systems for imaging, recognizing, and tracking of a user's eye that is wearing a HWC. Aspects further relate to the processing of images reflected from the user's eye and controlling displayed content in accordance therewith.

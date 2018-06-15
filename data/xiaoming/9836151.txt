@@ -1,1 +1,0 @@
-Multi-touch pad controller. A highly configurable controller is described that includes a number of different types of control mechanisms that emulate a wide variety of conventional control mechanisms using pressure and location sensitive sensors that generate high-density control information which may be mapped to the controls of a wide variety of devices and software.
